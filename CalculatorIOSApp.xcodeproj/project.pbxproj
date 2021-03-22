@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B48274432AB788964F56446 /* Pods_CalculatorIOSAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6747B8815D208B7B2A5BAE4 /* Pods_CalculatorIOSAppTests.framework */; };
+		9F7ABC3F0C1B812311320126 /* Pods_CalculatorIOSApp_CalculatorIOSAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B257A0A37583201A2021F9C3 /* Pods_CalculatorIOSApp_CalculatorIOSAppUITests.framework */; };
+		F260F4651F9540DB210716DC /* Pods_CalculatorIOSApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5DCD1E0E9F7D267B4EE81D0 /* Pods_CalculatorIOSApp.framework */; };
 		FF4742B7260907EE00F49D52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4742B6260907EE00F49D52 /* AppDelegate.swift */; };
 		FF4742B9260907EE00F49D52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4742B8260907EE00F49D52 /* SceneDelegate.swift */; };
 		FF4742BB260907EE00F49D52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4742BA260907EE00F49D52 /* ViewController.swift */; };
@@ -35,6 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EB34EDC782D39ED4C6699B3 /* Pods-CalculatorIOSApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorIOSApp.debug.xcconfig"; path = "Target Support Files/Pods-CalculatorIOSApp/Pods-CalculatorIOSApp.debug.xcconfig"; sourceTree = "<group>"; };
+		22EC1E6385E8E19F946CDE6A /* Pods-CalculatorIOSApp-CalculatorIOSAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorIOSApp-CalculatorIOSAppUITests.release.xcconfig"; path = "Target Support Files/Pods-CalculatorIOSApp-CalculatorIOSAppUITests/Pods-CalculatorIOSApp-CalculatorIOSAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2AE1D2A1D782B3346C641DEF /* Pods-CalculatorIOSAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorIOSAppTests.release.xcconfig"; path = "Target Support Files/Pods-CalculatorIOSAppTests/Pods-CalculatorIOSAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		80BE640FB3011A02EDA4BB8F /* Pods-CalculatorIOSAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorIOSAppTests.debug.xcconfig"; path = "Target Support Files/Pods-CalculatorIOSAppTests/Pods-CalculatorIOSAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		96917756C1853A94DCCCFA3F /* Pods-CalculatorIOSApp-CalculatorIOSAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorIOSApp-CalculatorIOSAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-CalculatorIOSApp-CalculatorIOSAppUITests/Pods-CalculatorIOSApp-CalculatorIOSAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5DCD1E0E9F7D267B4EE81D0 /* Pods_CalculatorIOSApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalculatorIOSApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B257A0A37583201A2021F9C3 /* Pods_CalculatorIOSApp_CalculatorIOSAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalculatorIOSApp_CalculatorIOSAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6747B8815D208B7B2A5BAE4 /* Pods_CalculatorIOSAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalculatorIOSAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB27D27E4EE1862DC4096A85 /* Pods-CalculatorIOSApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorIOSApp.release.xcconfig"; path = "Target Support Files/Pods-CalculatorIOSApp/Pods-CalculatorIOSApp.release.xcconfig"; sourceTree = "<group>"; };
 		FF4742B3260907EE00F49D52 /* CalculatorIOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatorIOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF4742B6260907EE00F49D52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF4742B8260907EE00F49D52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F260F4651F9540DB210716DC /* Pods_CalculatorIOSApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B48274432AB788964F56446 /* Pods_CalculatorIOSAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F7ABC3F0C1B812311320126 /* Pods_CalculatorIOSApp_CalculatorIOSAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41473E8557DB1AF58AAB5A79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5DCD1E0E9F7D267B4EE81D0 /* Pods_CalculatorIOSApp.framework */,
+				B257A0A37583201A2021F9C3 /* Pods_CalculatorIOSApp_CalculatorIOSAppUITests.framework */,
+				D6747B8815D208B7B2A5BAE4 /* Pods_CalculatorIOSAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B3F48D5BE0FD4C60600152D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0EB34EDC782D39ED4C6699B3 /* Pods-CalculatorIOSApp.debug.xcconfig */,
+				DB27D27E4EE1862DC4096A85 /* Pods-CalculatorIOSApp.release.xcconfig */,
+				96917756C1853A94DCCCFA3F /* Pods-CalculatorIOSApp-CalculatorIOSAppUITests.debug.xcconfig */,
+				22EC1E6385E8E19F946CDE6A /* Pods-CalculatorIOSApp-CalculatorIOSAppUITests.release.xcconfig */,
+				80BE640FB3011A02EDA4BB8F /* Pods-CalculatorIOSAppTests.debug.xcconfig */,
+				2AE1D2A1D782B3346C641DEF /* Pods-CalculatorIOSAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FF4742AA260907EE00F49D52 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +122,8 @@
 				FF4742CC260907EF00F49D52 /* CalculatorIOSAppTests */,
 				FF4742D7260907EF00F49D52 /* CalculatorIOSAppUITests */,
 				FF4742B4260907EE00F49D52 /* Products */,
+				6B3F48D5BE0FD4C60600152D /* Pods */,
+				41473E8557DB1AF58AAB5A79 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF4742DD260907EF00F49D52 /* Build configuration list for PBXNativeTarget "CalculatorIOSApp" */;
 			buildPhases = (
+				F4A8EB0DB9F09CEA84B53EF5 /* [CP] Check Pods Manifest.lock */,
 				FF4742AF260907EE00F49D52 /* Sources */,
 				FF4742B0260907EE00F49D52 /* Frameworks */,
 				FF4742B1260907EE00F49D52 /* Resources */,
+				047C930BAE0E187D511842DD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF4742E0260907EF00F49D52 /* Build configuration list for PBXNativeTarget "CalculatorIOSAppTests" */;
 			buildPhases = (
+				2BBEA3015D5588C0BF53F41D /* [CP] Check Pods Manifest.lock */,
 				FF4742C5260907EF00F49D52 /* Sources */,
 				FF4742C6260907EF00F49D52 /* Frameworks */,
 				FF4742C7260907EF00F49D52 /* Resources */,
@@ -170,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF4742E3260907EF00F49D52 /* Build configuration list for PBXNativeTarget "CalculatorIOSAppUITests" */;
 			buildPhases = (
+				68EFE5BD6F8F5E1C9D576F2C /* [CP] Check Pods Manifest.lock */,
 				FF4742D0260907EF00F49D52 /* Sources */,
 				FF4742D1260907EF00F49D52 /* Frameworks */,
 				FF4742D2260907EF00F49D52 /* Resources */,
+				2D38B6839152E0631B969A6F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		047C930BAE0E187D511842DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CalculatorIOSApp/Pods-CalculatorIOSApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CalculatorIOSApp/Pods-CalculatorIOSApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CalculatorIOSApp/Pods-CalculatorIOSApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BBEA3015D5588C0BF53F41D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CalculatorIOSAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D38B6839152E0631B969A6F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CalculatorIOSApp-CalculatorIOSAppUITests/Pods-CalculatorIOSApp-CalculatorIOSAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CalculatorIOSApp-CalculatorIOSAppUITests/Pods-CalculatorIOSApp-CalculatorIOSAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CalculatorIOSApp-CalculatorIOSAppUITests/Pods-CalculatorIOSApp-CalculatorIOSAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68EFE5BD6F8F5E1C9D576F2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CalculatorIOSApp-CalculatorIOSAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4A8EB0DB9F09CEA84B53EF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CalculatorIOSApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FF4742AF260907EE00F49D52 /* Sources */ = {
@@ -433,6 +582,7 @@
 		};
 		FF4742DE260907EF00F49D52 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EB34EDC782D39ED4C6699B3 /* Pods-CalculatorIOSApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +602,7 @@
 		};
 		FF4742DF260907EF00F49D52 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB27D27E4EE1862DC4096A85 /* Pods-CalculatorIOSApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +622,7 @@
 		};
 		FF4742E1260907EF00F49D52 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80BE640FB3011A02EDA4BB8F /* Pods-CalculatorIOSAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +645,7 @@
 		};
 		FF4742E2260907EF00F49D52 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AE1D2A1D782B3346C641DEF /* Pods-CalculatorIOSAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +668,7 @@
 		};
 		FF4742E4260907EF00F49D52 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96917756C1853A94DCCCFA3F /* Pods-CalculatorIOSApp-CalculatorIOSAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +689,7 @@
 		};
 		FF4742E5260907EF00F49D52 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22EC1E6385E8E19F946CDE6A /* Pods-CalculatorIOSApp-CalculatorIOSAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
