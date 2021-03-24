@@ -42,7 +42,6 @@ class ViewController: UIViewController {
     
     lazy var buttonPercent: UIButton = {
         let view = UIButton()
-        view.tag = 17
         view.setTitle("%", for: .normal)
         view.setTitleColor(UIColor.orange, for: .normal)
         view.addTarget(self, action: #selector(operationButtonClick), for: .touchUpInside)
@@ -67,7 +66,6 @@ class ViewController: UIViewController {
     
     lazy var buttonMinus:UIButton = {
         let view = UIButton()
-        view.tag = 14
         view.setTitle("-", for: .normal)
         view.setTitleColor(UIColor.orange, for: .normal)
         view.addTarget(self, action: #selector(operationButtonClick), for: .touchUpInside)
@@ -79,7 +77,7 @@ class ViewController: UIViewController {
         view.setTitle("=", for: .normal)
         view.setTitleColor(UIColor.white, for: .normal)
         view.backgroundColor = .orange
-        view.layer.cornerRadius = 10
+//        view.layer.cornerRadius = 25
         view.addTarget(self, action: #selector(operationButtonClick), for: .touchUpInside)
         return view
     }()
@@ -231,7 +229,7 @@ class ViewController: UIViewController {
         label.snp.makeConstraints{(make) in
             make.bottom.equalTo(numbersContainer.snp.top)
             make.width.equalToSuperview()
-            make.height.equalToSuperview().multipliedBy(0.2)
+            make.height.equalToSuperview().multipliedBy(0.1)
         }
         numbersContainer.snp.makeConstraints{(make) in
             make.bottom.equalToSuperview()
@@ -242,6 +240,113 @@ class ViewController: UIViewController {
         buttonDot.snp.makeConstraints{(make)in
             make.bottom.equalToSuperview()
             make.left.equalTo(button3.snp.left)
+            make.width.equalToSuperview().multipliedBy(buttonWidth)
+            make.height.equalToSuperview().multipliedBy(buttonHeight)
+        }
+        buttonPercent.snp.makeConstraints{(make) in
+            make.bottom.equalTo(button9.snp.bottom)
+            make.left.equalTo(button9.snp.right)
+            make.width.equalToSuperview().multipliedBy(buttonWidth)
+            make.height.equalToSuperview().multipliedBy(buttonHeight)
+        }
+        
+        buttonDelete.snp.makeConstraints{(make) in
+            make.bottom.equalTo(button8.snp.top)
+            make.left.equalTo(button8.snp.left)
+            make.width.equalToSuperview().multipliedBy(buttonWidth)
+            make.height.equalToSuperview().dividedBy(buttonHeight)
+        }
+        
+        buttonEquals.snp.makeConstraints{(make) in
+            make.left.equalTo(buttonDot.snp.right)
+            make.top.equalTo(button0.snp.top)
+            make.bottom.equalTo(button0.snp.bottom)
+            make.width.equalToSuperview().multipliedBy(buttonWidth)
+            make.height.equalToSuperview().multipliedBy(buttonHeight)
+        }
+        buttonDivine.snp.makeConstraints{(make) in
+            make.left.equalToSuperview()
+//            make.bottom.equalTo(buttonMultyply.snp.top)
+            make.width.equalToSuperview().multipliedBy(buttonWidth)
+            make.height.equalToSuperview().multipliedBy(buttonHeight)
+        }
+        
+        buttonMinus.snp.makeConstraints{(make) in
+            make.left.equalTo(button6.snp.right)
+            make.top.equalTo(button6.snp.top)
+            make.width.equalToSuperview().multipliedBy(buttonWidth)
+            make.height.equalToSuperview().multipliedBy(buttonHeight)
+        }
+        buttonPlus.snp.makeConstraints{(make) in
+            make.left.equalTo(button3.snp.right)
+            make.top.equalTo(button3.snp.top)
+            make.width.equalToSuperview().multipliedBy(buttonWidth)
+            make.height.equalToSuperview().multipliedBy(buttonHeight)
+        }
+        buttonC.snp.makeConstraints{(make) in
+            make.top.equalTo(button0.snp.top)
+            make.left.equalTo(button7.snp.left)
+            make.width.equalToSuperview().multipliedBy(buttonWidth)
+            make.height.equalToSuperview().multipliedBy(buttonHeight)
+        }
+        button0.snp.makeConstraints{(make) in
+            make.bottom.equalToSuperview()
+            make.left.equalTo(button2.snp.left)
+            make.width.equalToSuperview().multipliedBy(buttonWidth)
+            make.height.equalToSuperview().multipliedBy(buttonHeight)
+        }
+        button1.snp.makeConstraints{(make) in
+            make.bottom.equalTo(button0.snp.top)
+            make.left.equalToSuperview()
+            make.width.equalToSuperview().multipliedBy(buttonWidth)
+            make.height.equalToSuperview().multipliedBy(buttonHeight)
+        }
+        button2.snp.makeConstraints{(make) in
+            make.bottom.equalTo(button1.snp.bottom)
+            make.left.equalTo(button1.snp.right)
+            make.width.equalToSuperview().multipliedBy(buttonWidth)
+            make.height.equalToSuperview().multipliedBy(buttonHeight)
+        }
+        button3.snp.makeConstraints{(make) in
+            make.bottom.equalTo(button1.snp.bottom)
+            make.left.equalTo(button2.snp.right)
+            make.width.equalToSuperview().multipliedBy(buttonWidth)
+            make.height.equalToSuperview().multipliedBy(buttonHeight)
+        }
+        button4.snp.makeConstraints{(make) in
+            make.bottom.equalTo(button1.snp.top)
+            make.left.equalTo(button1.snp.left)
+            make.width.equalToSuperview().multipliedBy(buttonWidth)
+            make.height.equalToSuperview().multipliedBy(buttonHeight)
+        }
+        button5.snp.makeConstraints{(make) in
+            make.bottom.equalTo(button4.snp.bottom)
+            make.left.equalTo(button4.snp.right)
+            make.width.equalToSuperview().multipliedBy(buttonWidth)
+            make.height.equalToSuperview().multipliedBy(buttonHeight)
+        }
+        button6.snp.makeConstraints{(make) in
+            make.bottom.equalTo(button5.snp.bottom)
+            make.left.equalTo(button5.snp.right)
+            make.width.equalToSuperview().multipliedBy(buttonWidth)
+            make.height.equalToSuperview().multipliedBy(buttonHeight)
+        }
+        button7.snp.makeConstraints{(make) in
+            make.bottom.equalTo(buttonDivine.snp.top)
+            make.top.equalToSuperview()
+            make.left.equalTo(button4.snp.left)
+            make.width.equalToSuperview().multipliedBy(buttonWidth)
+            make.height.equalToSuperview().multipliedBy(buttonHeight)
+        }
+        button8.snp.makeConstraints{(make) in
+            make.bottom.equalTo(button7.snp.bottom)
+            make.left.equalTo(button7.snp.right)
+            make.width.equalToSuperview().multipliedBy(buttonWidth)
+            make.height.equalToSuperview().multipliedBy(buttonHeight)
+        }
+        button9.snp.makeConstraints{(make) in
+            make.bottom.equalTo(button7.snp.bottom)
+            make.left.equalTo(button6.snp.left)
             make.width.equalToSuperview().multipliedBy(buttonWidth)
             make.height.equalToSuperview().multipliedBy(buttonHeight)
         }
